@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    font-family:Arial;
+    border:border-box;
+}
+/* first div*/
+.navbar{
+    height: 60px;
+    background-color:black;   
+    color: white; 
+    padding: 2px;       
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 56px;
+    width: 100px;
+}
+.logo{  
+    height: 50px;
+    width: 100%;
+    background-image: url("/chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg");
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* second div*/
+.address{
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-one{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.add-two{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 3px;
+}
+/*3rd div*/
+.search{
+    width: 650px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.search:hover{
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+.srch-option{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.srch-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.srch-icon{
+    background-color:#febd68;
+    color: black;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/*4th div*/
+.signin{
+     padding: 5px;
+}
+.sign{
+    font-size: 0.8rem;
+    padding-left: 5px;
+}
+.list{
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    background-color: black;
+    color: white;
+}
+/*5th div*/
+.nav-return{
+    padding: 5px;
+}
+.return{
+    font-size: 0.8rem;
+}
+.order{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/*6th div*/
+.cart i {
+    font-size: 30px;
+    padding: 6px;
+}
+.cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+/*panel*/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu{
+    text-align: start;
+}
+.panel-option p {
+    display: inline;
+    margin: 5px;
+}
+.panel-option{
+    width: 70%;
+    font-size: 1rem;
+}
+.deals{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px;
+}
+/*hero-section*/
+.hero-section{
+    height: 400px;
+    background-image: url("header1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero-msg{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 80px;
+}
+.hero-msg a {
+    color:#007185;
+}
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:15px;
+    background-color: #fed2c7;
+}
+.box{
+   height: 350px;
+   width: 20%;
+   background-color: white;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-bottom: 10px;
+}
+.img{
+    height: 80%;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.img1{
+    background-image: url("bag.jpg");
+    background-size: cover;
+}
+.img2{
+    background-image: url("jacket.jpg");
+    background-size: cover;
+}
+.img3{
+    background-image: url("Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg");
+    background-size: cover;
+}
+.img4{
+    height: 80%;
+    width: 100%;
+    background-image: url("Fuji_Desktop_Single_image_EBF_2x_v8._SY608_CB573698005_.jpg");
+    background-size: cover;
+    padding-bottom: 15px;
+}
+.img5{
+    background-image: url("beauty.avif");
+    background-size: cover;
+}
+.img6{
+    background-image: url("product_img.jpg");
+    background-size: cover;
+}
+.img7{
+    background-image: url("cover-10.jpg");
+    background-size: cover;
+}
+.img8{
+    background-image: url("dress.jpg");
+    background-size: cover;
+}
+.shop-sec a {
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+/*footer*/
+.footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #374751;
+    color: white;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.foot-panel2 a {
+    display: block;
+    font-size: 0.9rem;
+    padding-top: 6px;
+    color: #dddddd;
+}
+.foot-panel2 p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 2px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg");
+    background-size: cover;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    padding-top: 20px;
+}
+.pages{
+font-size: 0.7rem;
+text-align: center;
+}
+.copyright{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 5px;
+}
